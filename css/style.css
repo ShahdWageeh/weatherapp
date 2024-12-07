@@ -1,0 +1,71 @@
+body{
+    font-family: "Roboto", sans-serif;
+}
+.main-color{
+    background-color: #1E202B;
+}
+.sec-color{
+    background-color: #323544;
+}
+.text-color{
+   color: #BFC1C8; 
+}
+.sec-card{
+    background-color: #262936;
+}
+.title span{
+    font-size: 14px;
+}
+.navbar-toggler-icon {
+    background-image: url(../images/bars.png);
+}
+.navbar-nav .nav-link.active{
+    color: #009AD8 !important;
+    border: 1px solid #009AD8;
+    border-radius: 20px;
+}
+nav ul li a:hover{
+    color: #009AD8 !important;
+    border: 1px solid #009AD8;
+    border-radius: 20px;
+}
+#home{
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+}
+.search input::placeholder{
+    color: grey;
+}
+.search .form-control:focus{
+    border: none;
+    box-shadow: none;
+}
+#home .degree h1{
+    font-size: 80px;
+    font-weight: 700;
+}
+#home .degree img{
+    width: 100px;
+}
+#home .inner{
+    height: 320px;
+}
+.left-rounded{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.right-rounded{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+footer .social > div{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #1E202B;
+    transition: all 0.3s;
+}
+footer .social > div:hover{
+    background-color: #009AD8;
+    color: white !important;
+}
